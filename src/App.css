@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 400px;
+  margin: 30px auto;
 }
 
-.App-link {
-  color: #61dafb;
+.card-title {
+  color: #fff;
+  height: 30em;
+  background-image: linear-gradient(
+      rgb(23, 95, 248, 0.5),
+      rgba(23, 95, 248, 0.5)
+    ),
+    url(https://www.designmag.cz/foto/2014/12/ra-cave-digger-4.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-menu {
+  color: #fff;
+}
+
+.card-actions {
 }
