@@ -1,4 +1,9 @@
 import { FaArrowLeft } from "react-icons/fa";
+import Avatar1 from './assets/Images/avatar1.jpg';
+import Avatar2 from './assets/Images/avatar2.jpg';
+import Avatar3 from './assets/Images/avatar3.png';
+import Avatar4 from './assets/Images/avatar4.jpg';
+import Avatar5 from './assets/Images/avatar5.jpg';
 import "./App.css";
 
 export default function App() {
@@ -22,28 +27,31 @@ export default function App() {
           <div className="avatar">
             <img
               alt="av"
-              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-0.3.5&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&s=046c29138c1335ef8edee7daf521ba50"
+              src={Avatar1}
             />
           </div>
           <div className="avatar">
             <img
               alt="av"
-              src="https://static.diverseui.com/male-65.jpg"
+              src={Avatar2}
             />
           </div>
           <div className="avatar">
             <img
               alt="av"
-              src="https://static.diverseui.com/mlin.png"
+              src={Avatar3}
             />
           </div>
           <div className="avatar">
-            <img alt="av" src="https://randomuser.me/api/portraits/men/2.jpg" />
+            <img 
+              alt="av" 
+              src={Avatar4}
+            />
           </div>
           <div className="avatar">
             <img
               alt="av"
-              src="https://static.diverseui.com/female-83.jpg"
+              src={Avatar5}
             />
           </div>
         </div>
