@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:wght@500&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -19,17 +22,17 @@ body,
 }
 
 .card {
-  height: 650px;
+  height: 620px;
   width: 400px;
 
   display: flex;
   flex-direction: column;
 
   background-image: linear-gradient(
-      rgb(23, 95, 248, 0.5),
-      rgba(23, 95, 248, 0.5)
+      rgba(23, 95, 248, 0.6),
+      rgba(23, 95, 248, 0.6)
     ),
-    url(https://www.designmag.cz/foto/2014/12/ra-cave-digger-0.jpg);
+    url(https://www.designmag.cz/foto/2014/12/ra-cave-digger-4.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -37,27 +40,27 @@ body,
 
 .card__hero {
   flex: 1;
-  padding: 45px 70px 80px 30px;
+  padding: 45px 70px 40px 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   color: white;
 }
 
-.card__hero-arrow-left {
-  /*margin-bottom: 130px;*/
-}
-
 .card__hero-title {
-  font-size: 2.4rem;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8rem;
   font-weight: bold;
-  margin-bottom: 15px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
 }
 
 .card__hero-subtitle {
   line-height: 30px;
   text-align: justify;
   font-size: 1.25rem;
+  color: rgb(255, 255, 255, 0.7);
 }
 
 .card__companions {
@@ -72,8 +75,9 @@ body,
 }
 
 .card__companions-title {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: 540;
+  font-family: "Open Sans", sans-serif;
 }
 
 .card__companions-avatars {
@@ -104,7 +108,7 @@ body,
   background-color: #175ff8;
   color: white;
   font-size: 1.25rem;
-  padding: 10px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,6 +117,7 @@ body,
 
 .card__companions-add-button span {
   position: relative;
+  font-weight: bold;
 }
 
 .card__companions-add-button span::before {
@@ -120,6 +125,6 @@ body,
   font-size: 0.8em;
   position: absolute;
   left: -12px;
-  top: 45%;
+  top: 55%;
   transform: translateY(-50%);
 }

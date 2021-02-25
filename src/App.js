@@ -9,10 +9,10 @@ export default function App() {
           <FaArrowLeft size="20px"/>
         </div>
         <div className="card__hero-content">
-          <div className="card__hero-title">Helsinki</div>
+          <div className="card__hero-title">Helsinki.</div>
           <div className="card__hero-subtitle">
             Finland's southern capital sits on <br /> a peninsula in the Gulf of
-            Finland
+            Finland.
           </div>
         </div>
       </div>
@@ -28,13 +28,13 @@ export default function App() {
           <div className="avatar">
             <img
               alt="av"
-              src="https://uifaces.co/our-content/donated/1H_7AxP0.jpg"
+              src="https://static.diverseui.com/male-65.jpg"
             />
           </div>
           <div className="avatar">
             <img
               alt="av"
-              src="https://images.unsplash.com/photo-1546456073-6712f79251bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ"
+              src="https://static.diverseui.com/mlin.png"
             />
           </div>
           <div className="avatar">
@@ -43,7 +43,7 @@ export default function App() {
           <div className="avatar">
             <img
               alt="av"
-              src="https://images-na.ssl-images-amazon.com/images/M/MV5BNDgwNzA4NDYzM15BMl5BanBnXkFtZTgwNTQ4MTM2ODE@._V1_UX172_CR0,0,172,256_AL_.jpg"
+              src="https://static.diverseui.com/female-83.jpg"
             />
           </div>
         </div>
