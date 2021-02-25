@@ -10,7 +10,7 @@ Use the package manager [npm](https://www.npmjs.com/) to install application.
 
 ```bash
 - git clone https://github.com/Lukaina/Test-Design-Frontend-Developer.git
-- cd test-design
+- Open in text editor (e.g. Visual Studio Code)
 - npm install
 - npm start
 ```
